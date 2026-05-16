@@ -13,7 +13,7 @@ function getWebhooks() {
 }
 
 function setWebhook() {
-  const url = "https://discord.com/api/webhooks/1505300919192129718/NguG7a8uqddyEDgHX1D-O4iBMCwMctCKXI22_3k3nIhY0hMLf58GWd1gwgwtONmIVYx2";
+  const url = "YOUR_WEBHOOK_URL_NEEDS_TO_COME_HERE";
 
   if (url.startsWith("VERVANG")) {
     Logger.log("⚠️ Vul eerst je webhook URL in bij de variabele 'url'.");
